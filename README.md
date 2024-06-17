@@ -12,7 +12,7 @@ For the lastest stable version run:
 conda install kmch::iogeo
 ```
 
-For the most up-to-dat but potentially unstable version, run:
+For the most up-to-date but potentially unstable version, run:
 ```bash
 git clone git@github.com:kmch/IOgeo.git
 cd IOgeo

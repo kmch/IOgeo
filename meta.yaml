@@ -1,0 +1,26 @@
+package:
+  name: iogeo
+  version: "0.0.2"  # Adjust the version number as needed
+
+source:
+  path: .  # Assuming the source code is in the current directory
+
+build:
+  noarch: python  # if pure Python (independent of the system architecture)
+  preserve_egg_dir: True
+requirements:
+  host: 
+    - python
+    - setuptools
+  run:
+    - python
+    - autologging
+    - geopandas
+    - numpy=1.*
+    - pandas 
+    - rioxarray
+    - xarray
+
+extra:
+  channels:
+    - conda-forge
